@@ -19,8 +19,8 @@ function StartSection(props) {
                     <img src={startLogo} alt="UV Landing Page Excersice" class="start-logo" />
                 </div>
                 <Col lg={12}>
-                    <h1>SALESFORCE COMMERCE CLOUD DEVELOPER</h1>
-                    <h2><FaStar className="ml-3 mr-3" /> BACH 13 TRAINING <FaStar className="ml-3 mr-3" /></h2>
+                    <h1>{props.title}</h1>
+                    <h2><FaStar className="ml-3 mr-3" /> {props.subTitle} <FaStar className="ml-3 mr-3" /></h2>
                 </Col>
                 <Row className="mt-4 mb-4">
                     <Col lg={4} md={12} sm={12}>

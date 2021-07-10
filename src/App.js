@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import StartSection from './views/StartSection';
+import PortfolioSection from './views/PortfolioSection';
 
 class App extends React.Component {
     
@@ -17,7 +18,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'SALESFORCE COMMERCE CLOUD DEVELOPER',
-        subTitle: 'Bach 13 Training',
+        subTitle: 'BACH 13 TRAINING',
       },
       about: {
         title: 'ABOUT US',
@@ -26,7 +27,7 @@ class App extends React.Component {
       },
       portfolio: {
         title: 'OUR PORTFOLIO',
-        subTitle: 'Checkout my portfolio projects below',
+        subTitle: 'Checkout our portfolio projects below',
       },
       contact: {
         title: 'CONACT US',
@@ -37,7 +38,8 @@ class App extends React.Component {
 render() {
   return (
     <div className="App">
-      <StartSection />
+      <StartSection title={this.state.home.title} subTitle={this.state.home.subTitle} />
+      <PortfolioSection title={this.state.portfolio.title} subTitle={this.state.portfolio.subTitle} />
     </div>
     );
   }
