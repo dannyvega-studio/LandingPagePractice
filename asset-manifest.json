@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/LandingPagePractice/static/css/main.acb8becc.chunk.css",
+    "main.js": "/LandingPagePractice/static/js/main.3df221af.chunk.js",
+    "main.js.map": "/LandingPagePractice/static/js/main.3df221af.chunk.js.map",
+    "runtime-main.js": "/LandingPagePractice/static/js/runtime-main.ae1087c2.js",
+    "runtime-main.js.map": "/LandingPagePractice/static/js/runtime-main.ae1087c2.js.map",
+    "static/css/2.d44d9e5f.chunk.css": "/LandingPagePractice/static/css/2.d44d9e5f.chunk.css",
+    "static/js/2.0243a6b4.chunk.js": "/LandingPagePractice/static/js/2.0243a6b4.chunk.js",
+    "static/js/2.0243a6b4.chunk.js.map": "/LandingPagePractice/static/js/2.0243a6b4.chunk.js.map",
+    "static/js/3.2f243fed.chunk.js": "/LandingPagePractice/static/js/3.2f243fed.chunk.js",
+    "static/js/3.2f243fed.chunk.js.map": "/LandingPagePractice/static/js/3.2f243fed.chunk.js.map",
+    "index.html": "/LandingPagePractice/index.html",
+    "static/css/2.d44d9e5f.chunk.css.map": "/LandingPagePractice/static/css/2.d44d9e5f.chunk.css.map",
+    "static/css/main.acb8becc.chunk.css.map": "/LandingPagePractice/static/css/main.acb8becc.chunk.css.map",
+    "static/js/2.0243a6b4.chunk.js.LICENSE.txt": "/LandingPagePractice/static/js/2.0243a6b4.chunk.js.LICENSE.txt",
+    "static/media/portfolio-css.1bff7021.png": "/LandingPagePractice/static/media/portfolio-css.1bff7021.png",
+    "static/media/portfolio-html.e2ac1947.png": "/LandingPagePractice/static/media/portfolio-html.e2ac1947.png",
+    "static/media/portfolio-javascript.bed33060.png": "/LandingPagePractice/static/media/portfolio-javascript.bed33060.png",
+    "static/media/portfolio-jquery.a5cb1ff2.png": "/LandingPagePractice/static/media/portfolio-jquery.a5cb1ff2.png",
+    "static/media/portfolio-node.282c17bf.png": "/LandingPagePractice/static/media/portfolio-node.282c17bf.png",
+    "static/media/portfolio-sass.67e3d4ef.png": "/LandingPagePractice/static/media/portfolio-sass.67e3d4ef.png",
+    "static/media/profile-dv.275b581b.png": "/LandingPagePractice/static/media/profile-dv.275b581b.png",
+    "static/media/profile-ic.1659d67b.png": "/LandingPagePractice/static/media/profile-ic.1659d67b.png",
+    "static/media/profile-xc.c9d9d928.png": "/LandingPagePractice/static/media/profile-xc.c9d9d928.png",
+    "static/media/start-section-00.9542e01f.png": "/LandingPagePractice/static/media/start-section-00.9542e01f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae1087c2.js",
+    "static/css/2.d44d9e5f.chunk.css",
+    "static/js/2.0243a6b4.chunk.js",
+    "static/css/main.acb8becc.chunk.css",
+    "static/js/main.3df221af.chunk.js"
+  ]
+}
