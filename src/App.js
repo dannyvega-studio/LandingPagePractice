@@ -1,9 +1,11 @@
 import React from 'react';
+import {BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import StartSection from './views/StartSection';
 import PortfolioSection from './views/PortfolioSection';
 import ContactSection from './views/ContactSection';
+import AboutSection from './views/AboutSection';
 
 class App extends React.Component {
     
@@ -12,10 +14,10 @@ class App extends React.Component {
     this.state = {
       title: 'UV Landing Page',
       headerLinks: [
-        { title: 'Start', path: '/' },
-        { title: 'About', path: '/about' },
-        { title: 'Portfolio', path: '/portfolio' },
-        { title: 'Contact', path: '/contact' }
+        { title: 'Start', path: '/LandingPagePractice/' },
+        { title: 'About', path: '/LandingPagePractice/about' },
+        { title: 'Portfolio', path: '/LandingPagePractice/portfolio' },
+        { title: 'Contact', path: '/LandingPagePractice/contact' }
       ],
       home: {
         title: 'SALESFORCE COMMERCE CLOUD DEVELOPER',
@@ -39,9 +41,27 @@ class App extends React.Component {
 render() {
   return (
     <div className="App">
-      <StartSection title={this.state.home.title} subTitle={this.state.home.subTitle} />
-      {/*<PortfolioSection title={this.state.portfolio.title} subTitle={this.state.portfolio.subTitle} />*/}
-      {/*<ContactSection title={this.state.contact.title} />*/}
+      <Router>
+
+        {/*Inicia Navbar*/}
+
+        {/*Finaliza Navbar*/}
+
+
+        {/*Rutas de Navegacion para consumo en Navbar*/}
+
+        <Route path="/LandingPagePractice/" exact render={() => <StartSection title={this.state.home.title} subTitle={this.state.home.subTitle} />} />
+        <Route path="/LandingPagePractice/portfolio" exact render={() => <PortfolioSection title={this.state.portfolio.title} subTitle={this.state.portfolio.subTitle} />} />
+        <Route path="/LandingPagePractice/contact" exact render={() => <ContactSection title={this.state.contact.title} />} />
+        <Route path="/LandingPagePractice/about" exact render={() => <AboutSection title={this.state.about.title} />} />
+
+        {/*Finalizan las Rutas de Navegacion para consumo en Navbar*/}
+
+        {/*Inicia Footer*/}
+
+        {/*Finaliza Footer*/}
+
+      </Router>
     </div>
     );
   }
