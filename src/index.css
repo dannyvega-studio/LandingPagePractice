@@ -46,6 +46,8 @@ body {
 
 .portfolio-img {
   opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   width: 100%;
   max-width: 250px;
@@ -70,9 +72,33 @@ body {
   text-align: center;
 }
 
-.portfolio-transition-html {
+.portfolio-btn {
+  color: white;
+  background-color: transparent;
+  border: 0;
   width: 100%;
   max-width: 250px;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.portfolio-btn-close {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portfolio-transition-html {
+  width: 100%;  max-width: 250px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -176,4 +202,10 @@ body {
 }
 .portfolio-transition-node:hover {
   opacity: 0.7;
+}
+
+.portfolio-modal {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }

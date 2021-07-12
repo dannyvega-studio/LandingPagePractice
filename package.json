@@ -1,5 +1,5 @@
 {
-  "homepage":"https://dannyvega-studio.github.io/LandingPagePractice/",
+  "homepage": "https://dannyvega-studio.github.io/LandingPagePractice/",
   "name": "uv-landing-page",
   "version": "0.0.0",
   "private": true,
@@ -19,6 +19,7 @@
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
+    "react-modal": "^3.14.3",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
