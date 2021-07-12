@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/LandingPagePractice/static/css/main.acb8becc.chunk.css",
-    "main.js": "/LandingPagePractice/static/js/main.12418f29.chunk.js",
-    "main.js.map": "/LandingPagePractice/static/js/main.12418f29.chunk.js.map",
+    "main.js": "/LandingPagePractice/static/js/main.eaa15972.chunk.js",
+    "main.js.map": "/LandingPagePractice/static/js/main.eaa15972.chunk.js.map",
     "runtime-main.js": "/LandingPagePractice/static/js/runtime-main.0d582446.js",
     "runtime-main.js.map": "/LandingPagePractice/static/js/runtime-main.0d582446.js.map",
     "static/css/2.d44d9e5f.chunk.css": "/LandingPagePractice/static/css/2.d44d9e5f.chunk.css",
-    "static/js/2.12c46fb8.chunk.js": "/LandingPagePractice/static/js/2.12c46fb8.chunk.js",
-    "static/js/2.12c46fb8.chunk.js.map": "/LandingPagePractice/static/js/2.12c46fb8.chunk.js.map",
+    "static/js/2.8e422320.chunk.js": "/LandingPagePractice/static/js/2.8e422320.chunk.js",
+    "static/js/2.8e422320.chunk.js.map": "/LandingPagePractice/static/js/2.8e422320.chunk.js.map",
     "static/js/3.917672d2.chunk.js": "/LandingPagePractice/static/js/3.917672d2.chunk.js",
     "static/js/3.917672d2.chunk.js.map": "/LandingPagePractice/static/js/3.917672d2.chunk.js.map",
     "index.html": "/LandingPagePractice/index.html",
     "static/css/2.d44d9e5f.chunk.css.map": "/LandingPagePractice/static/css/2.d44d9e5f.chunk.css.map",
     "static/css/main.acb8becc.chunk.css.map": "/LandingPagePractice/static/css/main.acb8becc.chunk.css.map",
-    "static/js/2.12c46fb8.chunk.js.LICENSE.txt": "/LandingPagePractice/static/js/2.12c46fb8.chunk.js.LICENSE.txt",
+    "static/js/2.8e422320.chunk.js.LICENSE.txt": "/LandingPagePractice/static/js/2.8e422320.chunk.js.LICENSE.txt",
     "static/media/portfolio-css.1bff7021.png": "/LandingPagePractice/static/media/portfolio-css.1bff7021.png",
     "static/media/portfolio-html.e2ac1947.png": "/LandingPagePractice/static/media/portfolio-html.e2ac1947.png",
     "static/media/portfolio-javascript.bed33060.png": "/LandingPagePractice/static/media/portfolio-javascript.bed33060.png",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.0d582446.js",
     "static/css/2.d44d9e5f.chunk.css",
-    "static/js/2.12c46fb8.chunk.js",
+    "static/js/2.8e422320.chunk.js",
     "static/css/main.acb8becc.chunk.css",
-    "static/js/main.12418f29.chunk.js"
+    "static/js/main.eaa15972.chunk.js"
   ]
 }
