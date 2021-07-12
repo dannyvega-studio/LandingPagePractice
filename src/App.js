@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import StartSection from './views/StartSection';
 import PortfolioSection from './views/PortfolioSection';
+import ContactSection from './views/ContactSection';
 
 class App extends React.Component {
     
@@ -38,8 +39,9 @@ class App extends React.Component {
 render() {
   return (
     <div className="App">
-      {/*<StartSection title={this.state.home.title} subTitle={this.state.home.subTitle} />*/}
-      <PortfolioSection title={this.state.portfolio.title} subTitle={this.state.portfolio.subTitle} />
+      <StartSection title={this.state.home.title} subTitle={this.state.home.subTitle} />
+      {/*<PortfolioSection title={this.state.portfolio.title} subTitle={this.state.portfolio.subTitle} />*/}
+      {/*<ContactSection title={this.state.contact.title} />*/}
     </div>
     );
   }
