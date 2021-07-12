@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import {Nav, Navbar} from 'react-bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -52,18 +52,10 @@ render() {
             <Navbar.Toggle className="border-0 " aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="/LandingPagePractice/">Start</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="/LandingPagePractice/portfolio">Porfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="/LandingPagePractice/about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="/LandingPagePractice/contact">Contact</a>
-                </li>
+                <Link className="nav-link" to="/LandingPagePractice/">Start</Link>
+                <Link className="nav-link" to="/LandingPagePractice/portfolio/">Portfolio</Link>
+                <Link className="nav-link" to="/LandingPagePractice/about/">About</Link>
+                <Link className="nav-link" to="/LandingPagePractice/contact/">Contact</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
