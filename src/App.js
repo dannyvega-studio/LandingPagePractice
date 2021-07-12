@@ -46,37 +46,28 @@ render() {
       <Router>
 
         {/*Inicia Navbar*/}
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-gradient">
-          <div class="container-fluid d-flex justify-content-between">
-            <div><h1><a class="navbar-brand text-white" href="#">StartBoostrap</a></h1></div>
-            <div><button class="navbar-toggler bg-success"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="text-white">Menu</span><span class="navbar-toggler-icon"></span>
-            </button></div>
+
+        <Navbar className="navbar navbar-expand-md navbar-dark bg-dark bg-gradient" expand="lg">
+            <Navbar.Brand>UV</Navbar.Brand>
+            <Navbar.Toggle className="border-0 " aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle">
+              <Nav className="mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="/LandingPagePractice/">Start</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="/LandingPagePractice/portfolio">Porfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/LandingPagePractice/about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/LandingPagePractice/contact">Contact</a>
+                </li>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
           
-          </div>
-        
-       
-        
-        <div class="d-flex justiy-content-end"> 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="/LandingPagePractice/">Start</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="/LandingPagePractice/portfolio">Porfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/LandingPagePractice/about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/LandingPagePractice/contact">Contact</a>
-            </li>
-          </ul>  
-          </div>
-          </div>    
-        </nav>
-    <div class="container-fluid bg-success " ><br></br></div>
         {/*Finaliza Navbar*/}
 
 
