@@ -27,7 +27,7 @@ class App extends React.Component {
       },
       portfolio: {
         title: 'OUR PORTFOLIO',
-        subTitle: 'Checkout our portfolio projects below',
+        subTitle: 'Checkout our portfolio skills below',
       },
       contact: {
         title: 'CONACT US',
@@ -38,7 +38,7 @@ class App extends React.Component {
 render() {
   return (
     <div className="App">
-      <StartSection title={this.state.home.title} subTitle={this.state.home.subTitle} />
+      {/*<StartSection title={this.state.home.title} subTitle={this.state.home.subTitle} />*/}
       <PortfolioSection title={this.state.portfolio.title} subTitle={this.state.portfolio.subTitle} />
     </div>
     );

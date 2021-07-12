@@ -1,4 +1,5 @@
 {
+  "homepage":"https://dannyvega-studio.github.io/LandingPagePractice/",
   "name": "uv-landing-page",
   "version": "0.0.0",
   "private": true,
@@ -10,6 +11,7 @@
     "cookie-parser": "^1.4.5",
     "debug": "^4.3.2",
     "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
     "http-errors": "^1.7.2",
     "morgan": "^1.10.0",
     "pug": "^3.0.2",
@@ -21,6 +23,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

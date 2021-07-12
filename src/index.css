@@ -38,3 +38,142 @@ body {
   margin-top: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.portfolio-container {
+  position: relative;
+  max-width: 250px;
+}
+
+.portfolio-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  transition: .5s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.portfolio-img:hover {
+  opacity: 0.3;
+}
+
+.portfolio-icon {
+  color: white;
+  width: 100%;
+  max-width: 250px;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.portfolio-transition-html {
+  width: 100%;
+  max-width: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+}
+.portfolio-transition-html:hover {
+  opacity: 0.7;
+}
+
+.portfolio-transition-css {
+  width: 100%;
+  max-width: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: blue;
+}
+.portfolio-transition-css:hover {
+  opacity: 0.7;
+}
+
+.portfolio-transition-sass {
+  width: 100%;
+  max-width: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: purple;
+}
+.portfolio-transition-sass:hover {
+  opacity: 0.7;
+}
+
+.portfolio-transition-javascript {
+  width: 100%;
+  max-width: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: yellow;
+}
+.portfolio-transition-javascript:hover {
+  opacity: 0.7;
+}
+
+.portfolio-transition-jquery {
+  width: 100%;
+  max-width: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: lightblue;
+}
+.portfolio-transition-jquery:hover {
+  opacity: 0.7;
+}
+
+.portfolio-transition-node {
+  width: 100%;
+  max-width: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: green;
+}
+.portfolio-transition-node:hover {
+  opacity: 0.7;
+}
