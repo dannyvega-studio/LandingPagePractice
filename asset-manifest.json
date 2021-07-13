@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LandingPagePractice/static/css/main.acb8becc.chunk.css",
-    "main.js": "/LandingPagePractice/static/js/main.eaa15972.chunk.js",
-    "main.js.map": "/LandingPagePractice/static/js/main.eaa15972.chunk.js.map",
+    "main.js": "/LandingPagePractice/static/js/main.bead305b.chunk.js",
+    "main.js.map": "/LandingPagePractice/static/js/main.bead305b.chunk.js.map",
     "runtime-main.js": "/LandingPagePractice/static/js/runtime-main.0d582446.js",
     "runtime-main.js.map": "/LandingPagePractice/static/js/runtime-main.0d582446.js.map",
     "static/css/2.d44d9e5f.chunk.css": "/LandingPagePractice/static/css/2.d44d9e5f.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.d44d9e5f.chunk.css",
     "static/js/2.8e422320.chunk.js",
     "static/css/main.acb8becc.chunk.css",
-    "static/js/main.eaa15972.chunk.js"
+    "static/js/main.bead305b.chunk.js"
   ]
 }
